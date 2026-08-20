@@ -18,7 +18,7 @@ export const services = [
     slug: 'visa-assistance',
     icon: FileCheck2,
     title: 'Visa Assistance',
-    image: '/images/services/visa-assistance1.webp',
+    image: '/images/services/visa-assistance-chennai.webp',
     short:
       'Professional assistance for visa applications, documentation and appointment procedures.',
     description:
@@ -35,7 +35,7 @@ export const services = [
     slug: 'passport-services',
     icon: BookUser,
     title: 'Passport Services',
-    image: '/images/services/passport-services.webp',
+    image: '/images/services/passport-services-chennai.webp',
     short:
       'Support with new passport applications, renewals and related documentation.',
     description:
@@ -52,7 +52,7 @@ export const services = [
     slug: 'certificate-attestation',
     icon: Stamp,
     title: 'Certificate Legalisation & Attestation',
-    image: '/images/services/certificate-attestation.webp',
+    image: '/images/services/certificate-attestation-chennai.webp',
     short:
       'Assistance with certificate legalisation and attestation for study, work and travel abroad.',
     description:
@@ -69,7 +69,7 @@ export const services = [
     slug: 'flight-booking',
     icon: Plane,
     title: 'Flight Ticket Booking',
-    image: '/images/services/flight-booking.webp',
+    image: '/images/services/flight-ticket-booking-chennai.webp',
     short:
       'Domestic and international flight ticket booking support for individuals and groups.',
     description:
@@ -86,7 +86,7 @@ export const services = [
     slug: 'hotel-booking',
     icon: BedDouble,
     title: 'Hotel Booking',
-    image: '/images/services/hotel-booking.webp',
+    image: '/images/services/hotel-booking-chennai.webp',
     short:
       'Hotel reservations tailored to your destination, budget and travel dates.',
     description:
@@ -103,7 +103,7 @@ export const services = [
     slug: 'travel-insurance',
     icon: ShieldCheck,
     title: 'Travel Insurance',
-    image: '/images/services/travel-insurance.webp',
+    image: '/images/services/travel-insurance-chennai.webp',
     short:
       'Guidance on travel insurance options for your international journey.',
     description:
@@ -120,7 +120,7 @@ export const services = [
     slug: 'holiday-packages',
     icon: Palmtree,
     title: 'Holiday Packages',
-    image: '/images/services/holiday-packages.webp',
+    image: '/images/services/holiday-packages-chennai.webp',
     short:
       'Curated holiday planning support for families, couples and solo travellers.',
     description:
@@ -137,7 +137,7 @@ export const services = [
     slug: 'corporate-travel',
     icon: Building2,
     title: 'Corporate Travel',
-    image: '/images/services/corporate-travel.webp',
+    image: '/images/services/corporate-travel-services-chennai.webp',
     short:
       'Dependable travel coordination for organisations and their travelling teams.',
     description:
@@ -154,7 +154,7 @@ export const services = [
     slug: 'business-travel',
     icon: Briefcase,
     title: 'Business Travel',
-    image: '/images/services/business-travel.webp',
+    image: '/images/services/business-travel-services-chennai.webp',
     short:
       'Travel and visa support tailored for business trips and meetings abroad.',
     description:
@@ -171,7 +171,7 @@ export const services = [
     slug: 'group-travel',
     icon: Users,
     title: 'Group Travel',
-    image: '/images/services/group-travel.webp',
+    image: '/images/services/group-travel-services-chennai.webp',
     short:
       'Coordinated visa and travel arrangements for groups travelling together.',
     description:
@@ -188,7 +188,7 @@ export const services = [
     slug: 'airport-transfers',
     icon: Car,
     title: 'Airport Transfers',
-    image: '/images/services/airport-transfers.webp',
+    image: '/images/services/airport-transfer-chennai.webp',
     short:
       'Arrival and departure transfer support to keep your journey seamless.',
     description:
@@ -205,37 +205,37 @@ export const services = [
 export const visaTypes = [
   {
     title: 'Tourist Visa',
-    image: '/images/visatypes/tourist-visa.webp',
+    image: '/images/visatypes/tourist-visa-chennai.webp',
     description:
       'Assistance for individuals and families travelling abroad for leisure and sightseeing.',
   },
   {
     title: 'Business Visa',
-    image: '/images/visatypes/business-visa.webp',
+    image: '/images/visatypes/business-visa-chennai.webp',
     description:
       'Support for professionals travelling for meetings, conferences and business engagements.',
   },
   {
     title: 'Visitor Visa',
-    image: '/images/visatypes/visitor-visa.webp',
+    image: '/images/visatypes/visitor-visa-chennai.webp',
     description:
       'Guidance for those visiting family, friends or attending personal occasions abroad.',
   },
   {
     title: 'Student Visa',
-    image: '/images/visatypes/student-visa.webp',
+    image: '/images/visatypes/student-visa-chennai.webp',
     description:
       'Documentation and application guidance for students pursuing studies overseas.',
   },
   {
     title: 'Family / Dependent Visa',
-    image: '/images/visatypes/family-visa.webp',
+    image: '/images/visatypes/family-visa-chennai.webp',
     description:
       'Assistance for family members joining relatives who are already residing abroad.',
   },
   {
     title: 'Transit Visa',
-    image: '/images/visatypes/transit-visa.webp',
+    image: '/images/visatypes/transit-visa-chennai.webp',
     description:
       'Support for travellers who require a transit visa while journeying through another country.',
   },

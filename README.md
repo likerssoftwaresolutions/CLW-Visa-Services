@@ -567,26 +567,26 @@ Recommended structure:
 public/
 └── images/
     ├── services/
-    │   ├── visa-assistance1.webp
-    │   ├── passport-services.webp
-    │   ├── certificate-attestation.webp
-    │   ├── flight-booking.webp
-    │   ├── hotel-booking.webp
-    │   ├── travel-insurance.webp
-    │   ├── holiday-packages.webp
-    │   ├── corporate-travel.webp
-    │   ├── business-travel.webp
-    │   ├── group-travel.webp
-    │   └── airport-transfers.webp
+    │   ├── visa-assistance-chennai.webp
+    │   ├── passport-services-chennai.webp
+    │   ├── certificate-attestation-chennai.webp
+    │   ├── flight-ticket-booking-chennai.webp
+    │   ├── hotel-booking-chennai.webp
+    │   ├── travel-insurance-chennai.webp
+    │   ├── holiday-packages-chennai.webp
+    │   ├── corporate-travel-services-chennai.webp
+    │   ├── business-travel-services-chennai.webp
+    │   ├── group-travel-services-chennai.webp
+    │   └── airport-transfer-chennai.webp
     │
     ├── destinations/
     │   └── destination images
     │
     ├── sections/
-    │   ├── services-background.webp
-    │   ├── destinations-background.webp
+    │   ├── visa-services-chennai-background.webp
+    │   ├── travel-destinations-background.webp
     │   ├── travel-pattern.jpg
-    │   ├── legal-background.webp
+    │   ├── visa-services-legal-background.webp
     │   └── visa-disclaimer-background.webp
     │
     └── other/
@@ -603,26 +603,26 @@ The current implementation explicitly defines **11 service images** in the servi
 
 | No. | Image |
 |---:|---|
-| 1 | visa-assistance1.webp |
-| 2 | passport-services.webp |
-| 3 | certificate-attestation.webp |
-| 4 | flight-booking.webp |
-| 5 | hotel-booking.webp |
-| 6 | travel-insurance.webp |
-| 7 | holiday-packages.webp |
-| 8 | corporate-travel.webp |
-| 9 | business-travel.webp |
-| 10 | group-travel.webp |
-| 11 | airport-transfers.webp |
+| 1 | visa-assistance-chennai.webp |
+| 2 | passport-services-chennai.webp |
+| 3 | certificate-attestation-chennai.webp |
+| 4 | flight-ticket-booking-chennai.webp |
+| 5 | hotel-booking-chennai.webp |
+| 6 | travel-insurance-chennai.webp |
+| 7 | holiday-packages-chennai.webp |
+| 8 | corporate-travel-services-chennai.webp |
+| 9 | business-travel-services-chennai.webp |
+| 10 | group-travel-services-chennai.webp |
+| 11 | airport-transfer-chennai.webp |
 
 There are also several section/hero background images explicitly referenced by the current code:
 
 | No. | Image |
 |---:|---|
-| 1 | services-background.webp |
-| 2 | destinations-background.webp |
+| 1 | visa-services-chennai-background.webp |
+| 2 | travel-destinations-background.webp |
 | 3 | travel-pattern.jpg |
-| 4 | legal-background.webp |
+| 4 | visa-services-legal-background.webp |
 | 5 | visa-disclaimer-background.webp |
 
 Therefore, the current codebase has **at least 16 explicitly referenced image assets** from the implementation reviewed.
@@ -639,10 +639,10 @@ Good:
 
 ```text
 visa-assistance.webp
-passport-services.webp
-travel-insurance.webp
-services-background.webp
-destinations-background.webp
+passport-services-chennai.webp
+travel-insurance-chennai.webp
+visa-services-chennai-background.webp
+travel-destinations-background.webp
 ```
 
 Avoid:
@@ -771,7 +771,7 @@ Example:
   slug: 'visa-assistance',
   icon: FileCheck2,
   title: 'Visa Assistance',
-  image: '/images/services/visa-assistance1.webp',
+  image: '/images/services/visa-assistance-chennai.webp',
   short: 'Professional assistance...',
   description: 'CLW Visa Services guides you...',
   points: [
@@ -1185,9 +1185,9 @@ public/images/sections/
 Examples:
 
 ```text
-services-background.webp
-destinations-background.webp
-legal-background.webp
+visa-services-chennai-background.webp
+travel-destinations-background.webp
+visa-services-legal-background.webp
 visa-disclaimer-background.webp
 ```
 
@@ -1198,7 +1198,7 @@ Example:
 ```jsx
 style={{
   backgroundImage:
-    "url('/images/sections/services-background.webp')",
+    "url('/images/sections/visa-services-chennai-background.webp')",
 }}
 ```
 
@@ -1221,13 +1221,13 @@ public/images/services/example.webp
 ### Correct
 
 ```js
-image: '/images/services/passport-services.webp'
+image: '/images/services/passport-services-chennai.webp'
 ```
 
 ### Incorrect
 
 ```js
-image: 'public/images/services/passport-services.webp'
+image: 'public/images/services/passport-services-chennai.webp'
 ```
 
 This is especially important for service detail pages and production deployment.

@@ -45,7 +45,7 @@ export default function HeroSection() {
         lg:pb-24
       "
       style={{
-        backgroundImage: "url('/images/Travel 1.jpg')",
+        backgroundImage: "url('/images/international-travel-services-chennai.jpg')",
       }}
     >
       {/* Background Overlay */}
@@ -648,7 +648,7 @@ export default function HeroSection() {
     "
   >
     <img
-      src="/images/logo/iata-logo.jpg"
+      src="/images/logo/iata-accredited-travel-logo.jpg"
       alt="IATA Accredited Travel Agent"
       className="
         h-full

@@ -29,7 +29,7 @@ export default function Process() {
         "
         style={{
           backgroundImage:
-            "url('/images/sections/process-background.webp')",
+            "url('/images/sections/visa-process-chennai.webp')",
         }}
       >
         {/* Dark overlay */}

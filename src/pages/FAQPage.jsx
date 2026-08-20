@@ -20,7 +20,7 @@ export default function FAQPage() {
         "
         style={{
           backgroundImage:
-            "url('/images/sections/faq-background.webp')",
+            "url('/images/sections/visa-services-faq-background.webp')",
         }}
       >
         {/* Dark Overlay */}

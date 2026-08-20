@@ -30,7 +30,7 @@ export default function Contact() {
           "
           style={{
             backgroundImage:
-              "url('/images/sections/contact-hero.jpg')",
+              "url('/images/sections/contact-clw-visa-services.jpg')",
           }}
         />
 

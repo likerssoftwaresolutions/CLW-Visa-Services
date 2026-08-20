@@ -26,7 +26,7 @@ export default function About() {
           "
           style={{
             backgroundImage:
-              "url('/images/sections/about-hero.webp')",
+              "url('/images/sections/about-clw-visa-services.webp')",
           }}
         />
 

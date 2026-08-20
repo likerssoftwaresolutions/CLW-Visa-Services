@@ -91,7 +91,7 @@ export default function AboutSection() {
 
             {/* About Image */}
             <img
-              src="/images/logo/clw-about.png"
+              src="/images/logo/clw-visa-services-logo.png"
               alt="CLW Visa Services - Visa and Travel Services"
               className="
                 h-full

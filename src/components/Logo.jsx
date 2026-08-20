@@ -8,7 +8,7 @@ export default function Logo({ scale = 1, light = false }) {
       }}
     >
       <img
-        src="/CLW logo.webp"
+        src="/clw-visa-services-logo.webp"
         alt="CLW Visa Services"
         className="h-12 w-auto object-contain sm:h-14"
       />

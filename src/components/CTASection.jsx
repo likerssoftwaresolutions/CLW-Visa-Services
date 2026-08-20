@@ -16,7 +16,7 @@ export default function CTASection() {
         sm:py-20
       "
       style={{
-        backgroundImage: "url('/images/sections/cta-background1.webp')",
+        backgroundImage: "url('/images/sections/visa-services-call-to-action.webp')",
       }}
     >
 

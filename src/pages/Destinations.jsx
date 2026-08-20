@@ -47,7 +47,7 @@ export default function Destinations() {
   "
   style={{
     backgroundImage:
-      "url('/images/sections/destinations-background.webp')",
+      "url('/images/sections/travel-destinations-background.webp')",
   }}
 >
   {/* Premium Dark Overlay */}
@@ -316,7 +316,7 @@ export default function Destinations() {
           "
           style={{
             backgroundImage:
-              "url('/images/sections/travel-pattern.webp')",
+              "url('/images/sections/travel-services-pattern.webp')",
           }}
         />
 

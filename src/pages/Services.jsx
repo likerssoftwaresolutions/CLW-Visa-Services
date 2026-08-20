@@ -46,7 +46,7 @@ export default function Services() {
         "
         style={{
           backgroundImage:
-            "url('/images/sections/services-background.webp')",
+            "url('/images/sections/visa-services-chennai-background.webp')",
         }}
       >
         {/* Dark overlay */}

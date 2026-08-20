@@ -31,7 +31,7 @@ export default function LegalPage({ title, children }) {
         "
         style={{
           backgroundImage:
-            "url('/images/sections/legal-background.webp')",
+            "url('/images/sections/visa-services-legal-background.webp')",
         }}
       >
         {/* Dark overlay */}
