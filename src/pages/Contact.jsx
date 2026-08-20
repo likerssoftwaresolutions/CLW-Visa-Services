@@ -10,10 +10,15 @@ import {
 
 import ContactForm from '../components/ContactForm'
 import { companyInfo } from '../data/content'
+import SEO from '../components/SEO'
 
 export default function Contact() {
   return (
     <>
+    <SEO
+  title="Contact CLW Visa Services | Visa Assistance in Chennai"
+  description="Contact CLW Visa Services in Chennai for visa assistance, passport services, travel bookings and international travel support."
+/>
       {/* =====================================================
           PREMIUM CONTACT HERO
       ====================================================== */}

@@ -3,6 +3,7 @@ import DestinationCard from '../components/DestinationCard'
 import CTASection from '../components/CTASection'
 import PremiumSectionHeading from '../components/PremiumSectionHeading'
 import { destinations } from '../data/destinations'
+import SEO from '../components/SEO'
 
 const gridAnimation = {
   hidden: {},
@@ -33,6 +34,10 @@ const cardAnimation = {
 export default function Destinations() {
   return (
     <>
+    <SEO
+  title="Visa Assistance for Worldwide Destinations | CLW Visa Services"
+  description="Get visa assistance for the UK, USA, Canada, Australia, New Zealand, Schengen countries, Europe, Asia, Africa and the Middle East."
+/>
       {/* =====================================================
           DESTINATION HERO
       ====================================================== */}

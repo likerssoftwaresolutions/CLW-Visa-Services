@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { ClipboardCheck } from 'lucide-react'
 import ProcessTimeline from '../components/ProcessTimeline'
 import CTASection from '../components/CTASection'
-
+import SEO from '../components/SEO'
 const gridAnimation = {
   hidden: {},
   show: {
@@ -15,6 +15,10 @@ const gridAnimation = {
 export default function Process() {
   return (
     <>
+    <SEO
+  title="Visa Application Process in Chennai | CLW Visa Services"
+  description="Understand the visa application process including requirements, documentation, application preparation, appointment and travel arrangements."
+/>
       {/* =====================================================
           PROCESS HERO
       ====================================================== */}

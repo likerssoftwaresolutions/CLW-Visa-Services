@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+
+  <!-- =========================
+       MAIN PAGES
+  ========================== -->
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/about</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/visa-types</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/process</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/faq</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/contact</loc>
+  </url>
+
+
+  <!-- =========================
+       SERVICE PAGES
+  ========================== -->
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/visa-assistance</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/passport-services</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/certificate-attestation</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/flight-booking</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/hotel-booking</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/travel-insurance</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/holiday-packages</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/corporate-travel</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/business-travel</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/group-travel</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/services/airport-transfers</loc>
+  </url>
+
+
+  <!-- =========================
+       VISA TYPE PAGES
+  ========================== -->
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/visa-types/tourist-visa</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/visa-types/business-visa</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/visa-types/visitor-visa</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/visa-types/student-visa</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/visa-types/family-visa</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/visa-types/transit-visa</loc>
+  </url>
+
+
+  <!-- =========================
+       DESTINATION PAGES
+  ========================== -->
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/united-kingdom</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/united-states</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/canada</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/australia-new-zealand</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/schengen-countries</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/european-countries</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/asian-countries</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/middle-east-countries</loc>
+  </url>
+
+  <url>
+    <loc>https://clw-visa-services.vercel.app/destinations/african-countries</loc>
+  </url>
+
+</urlset>

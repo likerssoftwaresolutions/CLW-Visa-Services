@@ -4,6 +4,7 @@ import FeaturedVisaServices from '../components/FeaturedVisaServices'
 import CTASection from '../components/CTASection'
 import PremiumSectionHeading from '../components/PremiumSectionHeading'
 import { services } from '../data/services'
+import SEO from '../components/SEO'
 
 const heroContainer = {
   hidden: {},
@@ -32,6 +33,10 @@ const heroItem = {
 export default function Services() {
   return (
     <>
+    <SEO
+  title="Visa & Travel Services in Chennai | CLW Visa Services"
+  description="Explore visa assistance, passport services, certificate attestation, flight booking, hotel booking, travel insurance and other services in Chennai."
+/>
       {/* =====================================================
           SERVICES HERO
       ====================================================== */}

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { ArrowDown, ShieldCheck, Globe2 } from 'lucide-react'
-
+import SEO from '../components/SEO'
 import AboutSection from '../components/AboutSection'
 import MissionVision from '../components/MissionVision'
 import WhyChooseUs from '../components/WhyChooseUs'
@@ -9,7 +9,12 @@ import { companyInfo } from '../data/content'
 
 export default function About() {
   return (
+    
     <>
+    <SEO
+  title="About CLW Visa Services | Visa & Travel Experts in Chennai"
+  description="Learn about CLW Visa Services, a Chennai-based visa and travel consultancy providing professional visa and travel assistance."
+/>
       {/* =====================================================
           PREMIUM ABOUT HERO
       ====================================================== */}

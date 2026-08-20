@@ -4,6 +4,7 @@ export const destinations = [
     slug: 'united-kingdom',
     tag: 'Visa Assistance',
     image: '/images/destinations/uk-travel-destination.webp',
+    alt: 'United Kingdom travel destination and visa assistance',
     description:
       'Guidance for tourist, business and family visa applications to the UK.',
     countries: ['England', 'Scotland', 'Wales', 'Northern Ireland'],
@@ -14,6 +15,7 @@ export const destinations = [
     slug: 'united-states',
     tag: 'Visa Assistance',
     image: '/images/destinations/usa-travel-destination.webp',
+    alt: 'United States travel destination and visa assistance',
     description:
       'Documentation and application support for US visa categories.',
     countries: ['United States'],
@@ -24,6 +26,7 @@ export const destinations = [
     slug: 'canada',
     tag: 'Visa Assistance',
     image: '/images/destinations/canada-travel-destination.webp',
+    alt: 'Canada travel destination and visa assistance',
     description:
       'Support for visitor, business and study-related travel to Canada.',
     countries: ['Canada'],
@@ -34,6 +37,7 @@ export const destinations = [
     slug: 'australia-new-zealand',
     tag: 'Visa Assistance',
     image: '/images/destinations/australia-new-zealand-travel.webp',
+    alt: 'Australia and New Zealand travel destinations and visa assistance',
     description:
       'Assistance for travellers heading to Australia and New Zealand.',
     countries: ['Australia', 'New Zealand'],
@@ -44,6 +48,7 @@ export const destinations = [
     slug: 'schengen-countries',
     tag: 'Visa Assistance',
     image: '/images/destinations/schengen-visa-destinations.webp',
+    alt: 'Schengen countries travel destinations and visa assistance',
     description:
       'Guidance across the Schengen visa process for European travel.',
     countries: [
@@ -82,6 +87,7 @@ export const destinations = [
     slug: 'european-countries',
     tag: 'Visa Assistance',
     image: '/images/destinations/europe-travel-destinations.webp',
+    alt: 'European travel destinations and visa assistance',
     description:
       'Support for travel and visa requirements across Europe.',
     countries: [
@@ -112,6 +118,7 @@ export const destinations = [
     slug: 'asian-countries',
     tag: 'Visa Assistance',
     image: '/images/destinations/asia-travel-destinations.webp',
+    alt: 'Asian travel destinations and visa assistance',
     description:
       'Assistance for travel across major Asian destinations.',
     countries: [
@@ -138,6 +145,7 @@ export const destinations = [
     slug: 'middle-east-countries',
     tag: 'Visa Assistance',
     image: '/images/destinations/middle-east-travel-destinations.webp',
+    alt: 'Middle East travel destinations and visa assistance',
     description:
       'Guidance for business and family travel across the Middle East.',
     countries: [
@@ -158,6 +166,7 @@ export const destinations = [
     slug: 'african-countries',
     tag: 'Visa Assistance',
     image: '/images/destinations/africa-travel-destinations.webp',
+    alt: 'African travel destinations and visa assistance',
     description:
       'Support for travel and visa documentation across African destinations.',
     countries: [

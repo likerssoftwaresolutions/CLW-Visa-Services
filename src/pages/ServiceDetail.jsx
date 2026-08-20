@@ -10,6 +10,7 @@ import {
 
 import CTASection from '../components/CTASection'
 import { services } from '../data/services'
+import SEO, { serviceSeo } from '../components/SEO'
 
 export default function ServiceDetail() {
   const { slug } = useParams()
@@ -31,12 +32,29 @@ export default function ServiceDetail() {
   return (
     <>
       {/* =====================================================
+          SEO
+      ====================================================== */}
+
+      <SEO
+        title={
+          serviceSeo[service.slug]?.title ||
+          `${service.title} in Chennai | CLW Visa Services`
+        }
+        description={
+          serviceSeo[service.slug]?.description ||
+          service.description
+        }
+        image={service.image}
+      />
+
+      {/* =====================================================
           SERVICE HERO
       ====================================================== */}
 
       <section className="relative overflow-hidden bg-clw-navy">
 
         {/* Background Image */}
+
         <div className="absolute inset-0">
           <img
             src={service.image}
@@ -47,9 +65,11 @@ export default function ServiceDetail() {
         </div>
 
         {/* Dark Overlay */}
+
         <div className="absolute inset-0 bg-clw-navy/40" />
 
         {/* Premium Gradient */}
+
         <div
           className="
             absolute
@@ -105,10 +125,7 @@ export default function ServiceDetail() {
 
           {/* =================================================
               BACK TO SERVICES
-              Fixed: pushed down below the site header, raised
-              z-index to z-50, and increased background opacity
-              so the button is always clearly visible.
-          ================================================= */}
+          ================================================== */}
 
           <motion.div
             initial={{
@@ -235,7 +252,7 @@ export default function ServiceDetail() {
             >
 
               {/* =================================================
-                  OUR SERVICES - CENTERED
+                  OUR SERVICES
               ================================================== */}
 
               <motion.div
@@ -271,6 +288,7 @@ export default function ServiceDetail() {
               >
 
                 {/* Icon */}
+
                 <span
                   className="
                     flex
@@ -292,6 +310,7 @@ export default function ServiceDetail() {
                 </span>
 
                 {/* Text */}
+
                 <span
                   className="
                     text-[9px]
@@ -307,6 +326,7 @@ export default function ServiceDetail() {
                 </span>
 
                 {/* Dot */}
+
                 <span
                   className="
                     h-1
@@ -416,26 +436,7 @@ export default function ServiceDetail() {
 
         </div>
 
-        {/* =================================================
-            BOTTOM FADE
-        ================================================== */}
-
-        {/* <div
-          className="
-            pointer-events-none
-            absolute
-            bottom-0
-            left-0
-            right-0
-            h-12
-            bg-gradient-to-t
-            from-clw-bg
-            to-transparent
-          "
-        /> */}
-
       </section>
-
 
       {/* =====================================================
           SERVICE CONTENT
@@ -542,7 +543,9 @@ export default function ServiceDetail() {
 
                 <img
                   src={service.image}
-                  alt={service.title}
+                  alt={service.alt}
+                  loading="lazy"
+                  decoding="async"
                   className="
                     h-full
                     w-full
@@ -743,7 +746,6 @@ export default function ServiceDetail() {
 
             </motion.div>
 
-
             {/* =================================================
                 CONSULTATION CARD
             ================================================== */}
@@ -884,7 +886,6 @@ export default function ServiceDetail() {
 
           </div>
 
-
           {/* =================================================
               RELATED SERVICES
           ================================================== */}
@@ -949,7 +950,6 @@ export default function ServiceDetail() {
               </Link>
 
             </div>
-
 
             {/* Related Cards */}
 
@@ -1018,7 +1018,12 @@ export default function ServiceDetail() {
 
                         <img
                           src={relatedService.image}
-                          alt={relatedService.title}
+                          alt={
+                            relatedService.alt ||
+                            `${relatedService.title} in Chennai`
+                          }
+                          loading="lazy"
+                          decoding="async"
                           className="
                             h-full
                             w-full
@@ -1030,7 +1035,6 @@ export default function ServiceDetail() {
                         />
 
                       </div>
-
 
                       {/* Related Content */}
 
@@ -1090,7 +1094,6 @@ export default function ServiceDetail() {
         </div>
 
       </section>
-
 
       {/* =====================================================
           CTA

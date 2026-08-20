@@ -2,10 +2,15 @@ import { motion } from 'framer-motion'
 import Disclaimer from '../components/Disclaimer'
 import CTASection from '../components/CTASection'
 import FAQ from '../components/FAQ'
+import SEO from '../components/SEO'
 
 export default function FAQPage() {
   return (
     <>
+    <SEO
+  title="Visa & Travel Services FAQ | CLW Visa Services Chennai"
+  description="Find answers to common questions about visa assistance, documentation, destinations, travel services and visa applications."
+/>
       {/* =====================================================
           FAQ HERO
       ====================================================== */}

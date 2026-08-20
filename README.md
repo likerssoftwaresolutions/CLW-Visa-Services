@@ -1296,7 +1296,7 @@ Example:
 ```jsx
 <img
   src={service.image}
-  alt={service.title}
+  alt={service.alt}
 />
 ```
 

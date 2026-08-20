@@ -16,13 +16,17 @@ import ContactForm from '../components/ContactForm'
 import CTASection from '../components/CTASection'
 import FAQ from '../components/FAQ'
 import Disclaimer from '../components/Disclaimer'
-
+import SEO from '../components/SEO'
 import { services } from '../data/services'
 import { destinations } from '../data/destinations'
 
 export default function Home() {
   return (
     <>
+    <SEO
+  title="Visa & Travel Services in Chennai | CLW Visa Services"
+  description="CLW Visa Services provides visa assistance, passport services, travel bookings, insurance and travel solutions in Chennai."
+/>
       {/* =====================================================
           HERO
       ====================================================== */}

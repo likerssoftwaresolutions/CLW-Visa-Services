@@ -53,7 +53,7 @@ export default function ServiceCard({
       >
         <img
           src={service.image}
-          alt={service.title}
+          alt={service.alt}
           loading="lazy"
           className="
             h-full

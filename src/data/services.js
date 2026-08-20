@@ -19,6 +19,7 @@ export const services = [
     icon: FileCheck2,
     title: 'Visa Assistance',
     image: '/images/services/visa-assistance-chennai.webp',
+    alt: 'Visa assistance and documentation support in Chennai',
     short:
       'Professional assistance for visa applications, documentation and appointment procedures.',
     description:
@@ -36,6 +37,7 @@ export const services = [
     icon: BookUser,
     title: 'Passport Services',
     image: '/images/services/passport-services-chennai.webp',
+    alt: 'Passport application, renewal and documentation services in Chennai',
     short:
       'Support with new passport applications, renewals and related documentation.',
     description:
@@ -53,6 +55,7 @@ export const services = [
     icon: Stamp,
     title: 'Certificate Legalisation & Attestation',
     image: '/images/services/certificate-attestation-chennai.webp',
+    alt: 'Certificate attestation and legalisation services in Chennai',
     short:
       'Assistance with certificate legalisation and attestation for study, work and travel abroad.',
     description:
@@ -70,6 +73,7 @@ export const services = [
     icon: Plane,
     title: 'Flight Ticket Booking',
     image: '/images/services/flight-ticket-booking-chennai.webp',
+    alt: 'Domestic and international flight ticket booking services in Chennai',
     short:
       'Domestic and international flight ticket booking support for individuals and groups.',
     description:
@@ -87,6 +91,7 @@ export const services = [
     icon: BedDouble,
     title: 'Hotel Booking',
     image: '/images/services/hotel-booking-chennai.webp',
+    alt: 'Hotel reservation and accommodation booking services in Chennai',
     short:
       'Hotel reservations tailored to your destination, budget and travel dates.',
     description:
@@ -104,6 +109,7 @@ export const services = [
     icon: ShieldCheck,
     title: 'Travel Insurance',
     image: '/images/services/travel-insurance-chennai.webp',
+    alt: 'Travel insurance assistance for international travellers from Chennai',
     short:
       'Guidance on travel insurance options for your international journey.',
     description:
@@ -121,6 +127,7 @@ export const services = [
     icon: Palmtree,
     title: 'Holiday Packages',
     image: '/images/services/holiday-packages-chennai.webp',
+    alt: 'Holiday package planning and travel services in Chennai',
     short:
       'Curated holiday planning support for families, couples and solo travellers.',
     description:
@@ -138,6 +145,7 @@ export const services = [
     icon: Building2,
     title: 'Corporate Travel',
     image: '/images/services/corporate-travel-services-chennai.webp',
+    alt: 'Corporate travel management and business travel services in Chennai',
     short:
       'Dependable travel coordination for organisations and their travelling teams.',
     description:
@@ -155,6 +163,7 @@ export const services = [
     icon: Briefcase,
     title: 'Business Travel',
     image: '/images/services/business-travel-services-chennai.webp',
+    alt: 'Business travel and visa support services in Chennai',
     short:
       'Travel and visa support tailored for business trips and meetings abroad.',
     description:
@@ -172,6 +181,7 @@ export const services = [
     icon: Users,
     title: 'Group Travel',
     image: '/images/services/group-travel-services-chennai.webp',
+    alt: 'Group travel planning and booking support in Chennai',
     short:
       'Coordinated visa and travel arrangements for groups travelling together.',
     description:
@@ -189,6 +199,7 @@ export const services = [
     icon: Car,
     title: 'Airport Transfers',
     image: '/images/services/airport-transfer-chennai.webp',
+    alt: 'Airport transfer and transportation services in Chennai',
     short:
       'Arrival and departure transfer support to keep your journey seamless.',
     description:
@@ -206,36 +217,47 @@ export const visaTypes = [
   {
     title: 'Tourist Visa',
     image: '/images/visatypes/tourist-visa-chennai.webp',
+    alt: 'Tourist visa assistance for international travel from Chennai',
     description:
       'Assistance for individuals and families travelling abroad for leisure and sightseeing.',
   },
+
   {
     title: 'Business Visa',
     image: '/images/visatypes/business-visa-chennai.webp',
+    alt: 'Business visa assistance for professionals travelling abroad from Chennai',
     description:
       'Support for professionals travelling for meetings, conferences and business engagements.',
   },
+
   {
     title: 'Visitor Visa',
     image: '/images/visatypes/visitor-visa-chennai.webp',
+    alt: 'Visitor visa assistance for international travellers from Chennai',
     description:
       'Guidance for those visiting family, friends or attending personal occasions abroad.',
   },
+
   {
     title: 'Student Visa',
     image: '/images/visatypes/student-visa-chennai.webp',
+    alt: 'Student visa documentation and application assistance in Chennai',
     description:
       'Documentation and application guidance for students pursuing studies overseas.',
   },
+
   {
     title: 'Family / Dependent Visa',
     image: '/images/visatypes/family-visa-chennai.webp',
+    alt: 'Family and dependent visa assistance for travel from Chennai',
     description:
       'Assistance for family members joining relatives who are already residing abroad.',
   },
+
   {
     title: 'Transit Visa',
     image: '/images/visatypes/transit-visa-chennai.webp',
+    alt: 'Transit visa assistance for international travellers from Chennai',
     description:
       'Support for travellers who require a transit visa while journeying through another country.',
   },
