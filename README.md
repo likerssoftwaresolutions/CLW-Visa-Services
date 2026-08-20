@@ -585,7 +585,7 @@ public/
     ├── sections/
     │   ├── visa-services-chennai-background.webp
     │   ├── travel-destinations-background.webp
-    │   ├── travel-pattern.jpg
+    │   ├── travel-services-pattern.webp
     │   ├── visa-services-legal-background.webp
     │   └── visa-disclaimer-background.webp
     │
@@ -621,7 +621,7 @@ There are also several section/hero background images explicitly referenced by t
 |---:|---|
 | 1 | visa-services-chennai-background.webp |
 | 2 | travel-destinations-background.webp |
-| 3 | travel-pattern.jpg |
+| 3 | travel-services-pattern.webp |
 | 4 | visa-services-legal-background.webp |
 | 5 | visa-disclaimer-background.webp |
 

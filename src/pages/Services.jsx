@@ -234,7 +234,7 @@ export default function Services() {
           "
           style={{
             backgroundImage:
-              "url('/images/sections/travel-pattern.jpg')",
+              "url('/images/sections/travel-services-pattern.webp')",
           }}
         />
 
